@@ -85,10 +85,10 @@ export default function ContactForm() {
       console.error('EmailJS error:', error)
       setIsSubmitting(false)
       setSubmitStatus('error')
-      
+
       // Default error message suggesting alternative contact methods
       const errorMsg = 'Unable to send message. Please try contacting me directly via email at hardikshreyas8@gmail.com or through the social links below.'
-      
+
       setErrorMessage(errorMsg)
       setTimeout(() => {
         setSubmitStatus('idle')
@@ -155,10 +155,10 @@ export default function ContactForm() {
             >
               <div>
                 <h3 className="text-2xl font-bold text-white mb-6">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h3>
                 <p className="text-gray-400 mb-8 leading-relaxed">
-                  I'm always open to discussing new projects, creative ideas, or
+                  I&apos;m always open to discussing new projects, creative ideas, or
                   opportunities to be part of your vision. Feel free to reach out
                   through any of the channels below.
                 </p>
@@ -326,7 +326,7 @@ export default function ContactForm() {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-green-400 text-sm mt-2"
                   >
-                    Thank you! I'll get back to you soon.
+                    Thank you! I&apos;ll get back to you soon.
                   </motion.p>
                 )}
               </form>

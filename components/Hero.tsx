@@ -100,7 +100,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-purple-400 text-sm sm:text-base font-medium tracking-wider uppercase"
           >
-            Hello, I'm
+            Hello, I&apos;m
           </motion.p>
 
           {/* Name */}
