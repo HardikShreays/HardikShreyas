@@ -1,0 +1,370 @@
+
+> hardik-portfolio@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.33
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+ ⨯ ESLint: Converting circular structure to JSON     --> starting at object with constructor 'Object'     |     property 'configs' -> object with constructor 'Object'     |     property 'flat' -> object with constructor 'Object'     |     ...     |     property 'plugins' -> object with constructor 'Object'     --- property 'react' closes the circle Referenced from: /Users/hardik/Portfolio - Hardik/.eslintrc.json
+   Collecting page data ...
+   Generating static pages (0/4) ...
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    a   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+t Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '3199574440'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135349)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  digest: '216676782'
+}
+
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: Could not find the module "/Users/hardik/Portfolio - Hardik/node_modules/framer-motion/dist/es/index.mjs#motion#div" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at eb (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:136577)
+    at ek (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140200)
+    at Array.toJSON (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135629)
+    at stringify (<anonymous>)
+    at eP (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142093)
+    at eE (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142572)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (/Users/hardik/Portfolio - Hardik/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150373)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+ ✓ Generating static pages (4/4)
+
+> Export encountered errors on following paths:
+	/page: /
