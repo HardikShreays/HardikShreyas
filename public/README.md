@@ -39,3 +39,4 @@ public/
 - Example: `public/resume.pdf` → accessible at `/resume.pdf`
 - These files are publicly accessible, so don't put sensitive information here
 
+
