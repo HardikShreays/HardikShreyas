@@ -113,6 +113,23 @@ External image domains are configured in `next.config.js`. Add your image domain
 - Animations use GPU acceleration for smooth performance
 - Code splitting is handled automatically by Next.js
 
+## 🗂 Content (Sanity CMS)
+
+Projects and experience are edited in a Sanity Studio embedded at **`/studio`** —
+no separate deploy.
+
+**Setup** (the site runs fine without this; it falls back to the checked-in data
+in `data/`):
+
+1. Create a project at [sanity.io/manage](https://sanity.io/manage).
+2. Copy `.env.local.example` to `.env.local` and fill in the project ID.
+3. Add your deployed URL under **API → CORS origins** in the Sanity dashboard,
+   plus `http://localhost:3000` for local editing.
+4. Run `npm run dev` and open `/studio`.
+
+Published edits appear within 60s (ISR), no redeploy needed. If Sanity is
+unreachable or the dataset is empty, the site renders `data/*.ts` instead.
+
 ## 📄 License
 
 This project is open source and available under the MIT License.

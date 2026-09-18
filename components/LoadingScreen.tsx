@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { DotLoader } from '@/components/ui/dot-loader'
 
@@ -23,54 +24,51 @@ const game = [
   [14, 6, 13, 20, 9, 7, 21],
 ]
 
+const MIN_VISIBLE_MS = 600
+const MAX_VISIBLE_MS = 5000
+
 export default function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true)
   const [isMounted, setIsMounted] = useState(false)
+  // The Sanity Studio lives under /studio; this overlay is opaque and locks
+  // scroll, so it must never cover it.
+  const isStudio = usePathname()?.startsWith('/studio')
 
   useEffect(() => {
     setIsMounted(true)
-    
-    // Prevent body scroll when loading
-    if (isLoading) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = ''
-    }
+    if (isStudio) return
+    document.body.style.overflow = 'hidden'
 
-    // Simulate loading time (2.5 seconds)
-    const timer = setTimeout(() => {
+    const started = Date.now()
+    let minTimer: ReturnType<typeof setTimeout>
+
+    const done = () => {
       setIsLoading(false)
       document.body.style.overflow = ''
-    }, 2500)
-
-    // Also hide when page is fully loaded (but ensure minimum 2.5 seconds)
-    if (typeof window !== 'undefined') {
-      const handleLoad = () => {
-        setTimeout(() => {
-          setIsLoading(false)
-          document.body.style.overflow = ''
-        }, 2500)
-      }
-
-      if (document.readyState === 'complete') {
-        handleLoad()
-      } else {
-        window.addEventListener('load', handleLoad)
-        return () => {
-          clearTimeout(timer)
-          window.removeEventListener('load', handleLoad)
-          document.body.style.overflow = ''
-        }
-      }
     }
+
+    // Drop the loader as soon as the page is genuinely ready, but hold it for a
+    // short floor so it doesn't flash on a warm cache.
+    const hide = () => {
+      minTimer = setTimeout(done, Math.max(0, MIN_VISIBLE_MS - (Date.now() - started)))
+    }
+
+    if (document.readyState === 'complete') hide()
+    else window.addEventListener('load', hide)
+
+    // A hung image or font means `load` may never fire, and the overlay is
+    // opaque and blocks scroll — never let that trap the page.
+    const failsafe = setTimeout(done, MAX_VISIBLE_MS)
 
     return () => {
-      clearTimeout(timer)
+      clearTimeout(minTimer)
+      clearTimeout(failsafe)
+      window.removeEventListener('load', hide)
       document.body.style.overflow = ''
     }
-  }, [isLoading])
+  }, [isStudio])
 
-  if (!isMounted) {
+  if (!isMounted || isStudio) {
     return null
   }
 
@@ -127,7 +125,7 @@ export default function LoadingScreen() {
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: '200px' }}
-              transition={{ duration: 2.5, ease: 'easeInOut' }}
+              transition={{ duration: 1.2, ease: 'easeInOut' }}
               className="h-0.5 bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 rounded-full"
             />
           </motion.div>

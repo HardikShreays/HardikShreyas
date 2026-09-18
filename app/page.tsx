@@ -5,22 +5,20 @@ import ExperienceTimeline from '@/components/ExperienceTimeline'
 import ContactForm from '@/components/ContactForm'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { getProjects, getExperiences } from '@/sanity/client'
 
-export default function Home() {
+export default async function Home() {
+  const [projects, experiences] = await Promise.all([getProjects(), getExperiences()])
+
   return (
     <main className="min-h-screen">
       <Navbar />
       <Hero />
       <About />
-      <ProjectsGrid />
-      <ExperienceTimeline />
+      <ProjectsGrid projects={projects} />
+      <ExperienceTimeline experiences={experiences} />
       <ContactForm />
       <Footer />
     </main>
   )
 }
-
-
-
-
-

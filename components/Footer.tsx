@@ -2,30 +2,12 @@
 
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail } from 'lucide-react'
+import { socialLinks } from '@/data/social'
+
+const icons = { GitHub: Github, LinkedIn: Linkedin, Email: Mail }
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
-
-  const socialLinks = [
-    {
-      name: 'GitHub',
-      icon: Github,
-      href: 'https://github.com',
-      color: 'hover:text-gray-400',
-    },
-    {
-      name: 'LinkedIn',
-      icon: Linkedin,
-      href: 'https://linkedin.com',
-      color: 'hover:text-blue-400',
-    },
-    {
-      name: 'Email',
-      icon: Mail,
-      href: 'mailto:hardikshreyas@gmail.com',
-      color: 'hover:text-purple-400',
-    },
-  ]
 
   return (
     <footer className="relative border-t border-white/10 mt-20">
@@ -43,13 +25,13 @@ export default function Footer() {
 
           <div className="flex items-center space-x-6">
             {socialLinks.map((link, index) => {
-              const Icon = link.icon
+              const Icon = icons[link.name as keyof typeof icons]
               return (
                 <motion.a
                   key={link.name}
                   href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={link.href.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={link.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
                   initial={{ opacity: 0, scale: 0 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}

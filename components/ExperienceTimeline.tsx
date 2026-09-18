@@ -2,12 +2,16 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import ScrollingSectionWrapper from './ScrollingSectionWrapper'
-import { experiences } from '@/data/experience'
+import { experiences as localExperiences, type Experience } from '@/data/experience'
 import { Briefcase } from 'lucide-react'
 import { GlowCard } from '@/components/ui/spotlight-card'
 
 
-export default function ExperienceTimeline() {
+export default function ExperienceTimeline({
+  experiences = localExperiences,
+}: {
+  experiences?: Experience[]
+}) {
   return (
     <ScrollingSectionWrapper>
       <section id="experience" className="py-24 sm:py-32 relative">
@@ -53,7 +57,7 @@ function TimelineItem({
   experience,
   index,
 }: {
-  experience: (typeof experiences)[0]
+  experience: Experience
   index: number
 }) {
   return (

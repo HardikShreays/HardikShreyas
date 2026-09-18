@@ -31,7 +31,7 @@ const techStackCards = [
   {
     icon: <Terminal className="size-4 text-cyan-300" />,
     title: "Backend",
-    description: "Node.js, Express, Prisma",
+    description: "Node.js, Express, FastAPI, Prisma, Celery",
     date: "Expert",
     iconClassName: "text-cyan-500",
     titleClassName: "text-cyan-400",
@@ -47,7 +47,7 @@ const techStackCards = [
   {
     icon: <Brain className="size-4 text-pink-300" />,
     title: "AI/ML",
-    description: "LangChain, LangGraph, OpenCV, Python",
+    description: "LangChain, LangGraph, LoRA/PEFT, PyTorch, scikit-learn",
     date: "Advanced",
     iconClassName: "text-pink-500",
     titleClassName: "text-pink-400",
@@ -63,7 +63,7 @@ const techStackCards = [
   {
     icon: <Cloud className="size-4 text-orange-300" />,
     title: "DevOps",
-    description: "Docker, Git",
+    description: "AWS, Docker, Redis, Git",
     date: "Advanced",
     iconClassName: "text-orange-500",
     titleClassName: "text-orange-400",

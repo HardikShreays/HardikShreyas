@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import ScrollingSectionWrapper from './ScrollingSectionWrapper'
-import { projects } from '@/data/projects'
+import { projects as localProjects, type Project } from '@/data/projects'
 import { MorphingCardStack, CardData } from '@/components/ui/morphing-card-stack'
 import { Code2, Globe, Database, Smartphone, Layout, Cpu } from 'lucide-react'
 import BlurTextAnimation from '@/components/ui/blur-text-animation'
@@ -16,7 +16,11 @@ const getProjectIcon = (tech: string[]) => {
   return <Layout size={24} />
 }
 
-export default function ProjectsGrid() {
+export default function ProjectsGrid({
+  projects = localProjects,
+}: {
+  projects?: Project[]
+}) {
   const mappedProjects: CardData[] = projects.map((p) => ({
     id: p.id,
     title: p.title,

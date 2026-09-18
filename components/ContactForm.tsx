@@ -6,6 +6,9 @@ import ScrollingSectionWrapper from './ScrollingSectionWrapper'
 import { Mail, Github, Linkedin, Send } from 'lucide-react'
 import BlurTextAnimation from '@/components/ui/blur-text-animation'
 import emailjs from '@emailjs/browser'
+import { socialLinks, email } from '@/data/social'
+
+const icons = { GitHub: Github, LinkedIn: Linkedin, Email: Mail }
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -87,7 +90,7 @@ export default function ContactForm() {
       setSubmitStatus('error')
 
       // Default error message suggesting alternative contact methods
-      const errorMsg = 'Unable to send message. Please try contacting me directly via email at hardikshreyas8@gmail.com or through the social links below.'
+      const errorMsg = `Unable to send message. Please try contacting me directly via email at ${email} or through the social links below.`
 
       setErrorMessage(errorMsg)
       setTimeout(() => {
@@ -96,27 +99,6 @@ export default function ContactForm() {
       }, 8000)
     }
   }
-
-  const socialLinks = [
-    {
-      name: 'Email',
-      icon: Mail,
-      href: 'mailto:hardikshreyas8@gmail.com',
-      color: 'hover:text-purple-400',
-    },
-    {
-      name: 'GitHub',
-      icon: Github,
-      href: 'https://github.com/HardikShreays',
-      color: 'hover:text-gray-400',
-    },
-    {
-      name: 'LinkedIn',
-      icon: Linkedin,
-      href: 'https://www.linkedin.com/in/hardik-shreyas/',
-      color: 'hover:text-blue-400',
-    },
-  ]
 
   return (
     <ScrollingSectionWrapper>
@@ -167,7 +149,7 @@ export default function ContactForm() {
               {/* Social Links */}
               <div className="space-y-4">
                 {socialLinks.map((link, index) => {
-                  const Icon = link.icon
+                  const Icon = icons[link.name as keyof typeof icons]
                   return (
                     <motion.a
                       key={link.name}
@@ -185,11 +167,9 @@ export default function ContactForm() {
                         <Icon size={20} />
                       </div>
                       <span className="font-medium">{link.name}</span>
-                      {link.name === 'Email' && (
-                        <span className="ml-auto text-sm text-gray-500">
-                          hardikshreyas8@gmail.com
-                        </span>
-                      )}
+                      <span className="ml-auto text-sm text-gray-500 hidden sm:inline">
+                        {link.label}
+                      </span>
                     </motion.a>
                   )
                 })}
